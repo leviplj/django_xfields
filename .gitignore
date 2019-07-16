@@ -1,5 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 
+.vscode/
+
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -8,6 +10,8 @@ __pycache__/
 
 # Distribution / packaging
 dist/
+*.egg-info
+MANIFEST
 
 # Environments
 .env

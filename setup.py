@@ -1,15 +1,16 @@
 from distutils.core import setup
+from setuptools import find_packages
 
 setup(
   name = 'django_xfields',
-  packages = ['django_xfields'],
-  version = '0.1',
+  packages=find_packages(exclude=("tests",)),
+  version = '0.2',
   license = 'MIT License',
   description = 'Extra fields for Django framework',
   author = 'leviplj',
   author_email = 'leviplj@gmail.com',
   url = 'https://github.com/leviplj/django_xfields',
-  download_url = 'https://github.com/leviplj/django_xfields/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/leviplj/django_xfields/archive/v_02.tar.gz',
   keywords = ['django', 'fields', 'extra'],
   install_requires=[
     'django',
